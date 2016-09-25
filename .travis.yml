@@ -3,14 +3,14 @@ language: java
 jdk:
   - oraclejdk8
 
-before_install:
-  - nvm install 4
-  - npm update -g npm
-  - npm install -g gulp
-
-before_script:
-  - node --version
-  - npm --version
+#before_install:
+#  - nvm install 4
+#  - npm update -g npm
+#  - npm install -g gulp
+#
+#before_script:
+#  - node --version
+#  - npm --version
 
 install: /bin/true
 

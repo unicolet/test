@@ -14,4 +14,4 @@ before_script:
 
 install: /bin/true
 
-script: /bin/true
+script: ./gradlew clean build cucumber

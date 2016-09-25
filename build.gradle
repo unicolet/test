@@ -1,0 +1,24 @@
+plugins {
+    id "com.github.samueltbrown.cucumber" version "0.9"
+    id "java"
+    id "groovy"
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.21'
+    compile 'org.codehaus.groovy:groovy-all:2.4.7'
+    
+    testCompile 'junit:junit:4.12'
+    testCompile 'info.cukes:cucumber-groovy:1.2.4'
+}
+
+cucumber {
+    glueDirs = ['src/test/groovy']
+    jvmOptions {
+      maxHeapSize = '64m'
+    }
+}

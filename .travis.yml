@@ -15,3 +15,4 @@ jdk:
 install: /bin/true
 
 script: ./gradlew clean build cucumber
+

@@ -1,3 +1,4 @@
-# test
+# Test
 
-testing CI / BORS-NG
+Just a repo for playing with CI / BORS-NG
+

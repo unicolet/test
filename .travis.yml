@@ -2,7 +2,15 @@ sudo: required
 language: java
 jdk:
   - oraclejdk8
-
+branches:
+  only:
+    # This is where pull requests from "bors r+" are built.
+    - staging
+    # This is where pull requests from "bors try" are built.
+    - trying
+    # Uncomment this to enable building pull requests.
+    - master
+    
 #before_install:
 #  - nvm install 4
 #  - npm update -g npm

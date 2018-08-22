@@ -1,7 +1,7 @@
 ---
 name: Epic with RFC
 about: Epic with RFC. Continue
-on next line.
+ on next line.
 
 ---
 

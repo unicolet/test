@@ -1,0 +1,8 @@
+kind: pipeline
+name: default
+
+steps:
+- name: frontend
+  image: amazoncorretto:8u222
+  commands:
+  - ./gradlew build
